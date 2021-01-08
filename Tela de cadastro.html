@@ -1,0 +1,39 @@
+<!doctype html>
+
+<!--
+Projeto Desenvolvido por Emily Leme, utlizando HTML e JavaScript utlizando a função "alert" para avisar os campos que faltam ser preenchidos. Utilizado normalmente em telas de cadastro.
+!-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tela de Cadastro | JavaScript</title>
+	
+	  
+	<script language="javascript" type="text/javascript" src="js.js"></script>
+	  
+  </head>
+  <body>
+	  <h1> Tela de cadastro | Html e JS</h1>
+		<hr>
+	  	<br>
+	  
+	  <!-- FORMULÁRIO !-->
+	  <form name="form1" action="" method="POST">
+        Nome:
+        <input name="nome"  placeholder="Insira seu nome" type="text"><br/><br />
+		  
+        Email:
+        <input name="email" placeholder="Insira seu e-mail" type="email"><br/><br />
+		  
+        Endereço:
+        <input name="endereco" placeholder="Insira seu endereço" type="text"><br/><br />
+		  
+        Senha:
+        <input name="senha" placeholder="Insira sua nova senha" type="password"><br/><br />
+
+        <input type="submit"  onclick="return validar()">
+      </form>
+	  
+  </body>
+</html>
